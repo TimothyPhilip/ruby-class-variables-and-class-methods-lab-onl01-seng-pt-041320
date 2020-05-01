@@ -26,7 +26,7 @@ class Song
       hash = {}
     @@genres.each do |genre_list|
       if !include?(genre_list) = true 
-         hash[genre_list] << genre_list.count
+         hash[genre_list]
    end
    end 
    hash
