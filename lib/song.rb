@@ -25,6 +25,7 @@ class Song
   def self.genre_count
       hash = {}
     @@genres.each_with_index do |genre_list|
+      binding.pry
       if hash[genre_list].include?(genre_list)
          hash[genre_list] += 1
       else
