@@ -29,7 +29,8 @@ class Song
       if !hash include?(genre_list)
          hash[genre_list] += 1
       else
-        
+          hash[genre_list] = []
+          hash[genre_list] << 
    end
    end 
    hash
