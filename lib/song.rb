@@ -24,10 +24,10 @@ class Song
   
   def self.genre_count
       hash = {}
-    @@genres.each_with_index do |genre_list|
-      #if !include?(genre_list) = true 
+    @@genres.each do |genre_list|
+      if !include?(genre_list) = true 
          
-   # end
+   end
    end 
   end 
   
