@@ -26,7 +26,7 @@ class Song
     hash = {}
     @@genres.each do |genre, i|
       binding.pry
-      if hash[genre]
+      if hash[genre].include(genre)
          hash[genre] += 1
       else
           hash[genre] = 1
