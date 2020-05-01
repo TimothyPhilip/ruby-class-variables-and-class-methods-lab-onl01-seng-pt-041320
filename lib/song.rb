@@ -24,7 +24,8 @@ class Song
   
   def self.genre_count
     @@genres.each do |genre_list|
-      @@genres.uniq
+      if !include?(genre_list) = true 
+        genre_list
    end 
   end 
   
