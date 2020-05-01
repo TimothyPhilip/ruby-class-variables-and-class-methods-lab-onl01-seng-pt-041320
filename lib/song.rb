@@ -29,6 +29,7 @@ class Song
          hash[genre_list] << genre_list.count
    end
    end 
+   hash
   end 
   
   def self.artists 
