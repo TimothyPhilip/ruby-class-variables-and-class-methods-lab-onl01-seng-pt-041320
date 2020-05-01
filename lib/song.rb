@@ -27,7 +27,7 @@ class Song
       number = 1
     @@genres.each do |genre_list|
       if !hash.include?(genre_list)
-         hash[genre_list] << genre_list
+         hash[genre_list] << number += 1
       else
           hash[genre_list] = []
           hash[genre_list] 
