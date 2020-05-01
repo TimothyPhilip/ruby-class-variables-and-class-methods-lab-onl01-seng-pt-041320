@@ -24,10 +24,9 @@ class Song
   
   def self.genre_count
       hash = {}
-      number = 1
-    @@genres.each do |genre_list|
+    @@genres.each_with_index do |genre_list|
       if !hash.include?(genre_list)
-         hash[genre_list] << number += 1
+         hash[genre_list]
       else
           hash[genre_list] = []
           hash[genre_list] 
