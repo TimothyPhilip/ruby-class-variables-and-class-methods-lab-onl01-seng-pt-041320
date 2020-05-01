@@ -26,10 +26,11 @@ class Song
       hash = {}
     @@genres.each_with_index do |genre|
       binding.pry
-      if hash[genre].!include?(genre)
+      if hash[genre]
          hash[genre] += 1
       else
-          hash[genre] 
+          hash[genre] = 1
+          
    end
    end 
    hash
