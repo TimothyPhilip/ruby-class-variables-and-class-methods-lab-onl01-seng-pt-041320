@@ -30,7 +30,7 @@ class Song
          hash[genre_list] += 1
       else
           hash[genre_list] = []
-          hash[genre_list] << 
+          hash[genre_list] << genre_list.count
    end
    end 
    hash
