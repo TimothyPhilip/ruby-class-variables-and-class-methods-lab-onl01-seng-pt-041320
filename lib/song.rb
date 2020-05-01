@@ -26,8 +26,10 @@ class Song
       hash = {}
       number = 1
     @@genres.each do |genre_list|
-      if !include?(genre_list)
+      if !hash include?(genre_list)
          hash[genre_list] += 1
+      else
+        
    end
    end 
    hash
